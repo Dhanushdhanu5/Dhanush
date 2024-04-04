@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <div className="d-flex justify-content-center ">
             <div className="skillsContainer rounded-5 p-5">
-                <div className="containerText aa">About Me</div>
+                <div className="containerText">About Me</div>
                 <p className="aboutText">
                     I am Dhanush I have completed BBA with CGPA of 6.9. Later on I had
                     taken Almnd Full Stack Development Certification Course which
