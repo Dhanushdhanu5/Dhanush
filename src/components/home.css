@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background: rgb(30, 30, 30);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+}
+.logo {
+  object-fit: cover;
+  cursor: pointer;
+}
+.menuListItem {
+  text-decoration: none;
+  color: rgb(24, 58, 168);
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.menuBtn {
+  background: rgb(24, 58, 168);
+  color: black;
+  border: none;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+.menuListItem:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+.canvasOptions {
+  border: none;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+/* home css */
+
+#intro {
+  width: 100%;
+  max-width: 778px;
+  padding-left: 5rem;
+}
+
+.bgImage {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  padding-right: 3rem;
+}
+.introContent {
+  padding: 0.3rem;
+  font-weight: 700;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.introText {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.introName {
+  color: rgb(60, 91, 195);
+}
+
+.sencodText {
+  font-size: 30px;
+}
+.button {
+  background: rgb(60, 91, 195);
+  padding: 0.5rem 1.5rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 2rem;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* skills css */
+.container {
+  height: 500px;
+  max-width: 100%;
+  width: 75rem;
+  background-color: rgb(16, 39, 69);
+  border-radius: 3rem;
+}
+.about {
+  padding: 80px 0;
+}
+
+.tabTitles {
+  display: flex;
+  margin: 20px 0 40px;
+}
+.tabLinks {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.tabLinks.activeLink::after {
+  width: 100%;
+}
+
+.tabContents.activeTab {
+  display: block;
+}
+.border_bottom {
+  border-bottom: 4px solid rgb(223, 18, 104);
+}
+
+/*servics */
+
+.services {
+  padding: 30px 0;
+}
+.servicesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+/* skillsContainer */
+
+.cardSkills {
+  object-fit: cover;
+}
+.text {
+  color: rgb(191, 44, 44);
+}
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.mainText {
+  font-size: 18px;
+}
+.contactBtn {
+  background-color: rgb(60, 91, 195);
+  text-decoration: none;
+  border: none;
+  border-radius: 2rem;
+  font-size: 16px;
+}
+
+/* offcanvas */
+.offcanvasBackground {
+  background-color: rgba(9, 12, 18, 0.785);
+}
+.offcanvasHeading {
+  color: rgb(47, 58, 152);
+}
