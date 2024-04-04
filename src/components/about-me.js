@@ -5,7 +5,7 @@ import EducImgs from "../assets/images/education.jpg";
 
 const AboutMe = () => {
     return (
-        <div className="d-flex justify-content-center ">
+        <div className="d-flex justify-content-center aa">
             <div className="skillsContainer rounded-5 p-5">
                 <div className="containerText">About Me</div>
                 <p className="aboutText">
